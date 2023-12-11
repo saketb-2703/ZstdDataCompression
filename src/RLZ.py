@@ -26,7 +26,6 @@ def factorise(T, S):
             print("=======================================\n\n")
             factors.append((T[i].encode('utf-8'), 0))
             i += 1
-        print(i)
     return factors
 
 
